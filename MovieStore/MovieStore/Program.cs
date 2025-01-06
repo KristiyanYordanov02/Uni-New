@@ -33,6 +33,7 @@ namespace MovieStore
             MapsterConfiguration.Configure();
             builder.Services.AddMapster();
 
+
             builder.Services
                 .AddValidatorsFromAssemblyContaining<AddMovieRequestValidator>();
             builder.Services.AddFluentValidationAutoValidation();

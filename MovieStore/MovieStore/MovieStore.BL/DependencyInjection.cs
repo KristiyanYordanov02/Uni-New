@@ -11,6 +11,7 @@ namespace MovieStore.BL
         {
             services.AddSingleton<IMovieService, MovieService>();
             services.AddSingleton<IMovieBlService, MovieBlService>();
+            services.AddSingleton<IActorService, ActorService>();
 
             return services;
         }
