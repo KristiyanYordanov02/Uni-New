@@ -4,6 +4,6 @@ namespace MovieStore.BL.Interfaces
 {
     public interface IActorService
     {
-        void Add(Actor actor);
+        Actor? GetActorById(int id);
     }
 }

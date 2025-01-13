@@ -18,6 +18,11 @@ namespace MovieStore.BL.Services
             _actorRepository = actorRepository;
         }
 
+        public List<FullMovieDetails> GetAllMovieDetails()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<MovieView> GetDetailedMovies()
         {
             var result = new List<MovieView>();

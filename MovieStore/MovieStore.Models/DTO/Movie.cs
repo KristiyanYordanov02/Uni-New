@@ -8,9 +8,6 @@
 
         public int Year { get; set; }
 
-        public IEnumerable<int> Actors { get; set; } =
-            Enumerable.Empty<int>();
-
         public List<string> Actors { get; set; }
     }
 }

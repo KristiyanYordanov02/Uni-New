@@ -4,6 +4,6 @@ namespace MovieStore.BL.Interfaces
 {
     public interface IMovieBlService
     {
-        List<MovieView> GetDetailedMovies();
+        List<FullMovieDetails> GetAllMovieDetails();
     }
 }
