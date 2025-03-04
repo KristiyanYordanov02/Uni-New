@@ -18,16 +18,4 @@ namespace MovieStore.DL.Repositories
     //        movie.Id = Guid.NewGuid().ToString();
     //        InMemoryDb.Movies.Add(movie);
     //    }
-
-    //    /// <summary>
-    //    /// Get movie by id
-    //    /// </summary>
-    //    /// <param name="id"></param>
-    //    /// <returns></returns>
-    //    public Movie? GetMovieById(string id)
-    //    {
-    //       return InMemoryDb.Movies
-    //           .FirstOrDefault(m => m.Id == id);
-    //    }
-    //}
 }
