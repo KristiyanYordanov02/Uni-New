@@ -32,5 +32,25 @@ namespace MovieStore.BL.Services
         {
             throw new NotImplementedException();
         }
+
+        public List<Movie> GetMovies()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteMovie(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Movie? GetMoviesById(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<object> IMovieService.GetAllMovies()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
