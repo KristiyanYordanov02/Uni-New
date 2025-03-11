@@ -24,7 +24,6 @@ namespace MovieStore
 
             builder.Logging.AddSerilog(logger);
 
-            // Add services to the container.
             builder.Services
                 .AddConfigurations(builder.Configuration)
                 .RegisterDataLayer()
@@ -45,7 +44,6 @@ namespace MovieStore
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
 
             if (app.Environment.IsDevelopment())
             {
