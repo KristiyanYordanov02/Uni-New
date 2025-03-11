@@ -60,6 +60,7 @@ namespace MovieStore
             app.MapControllers();
 
             app.Run();
+            return;
         }
     }
 }
